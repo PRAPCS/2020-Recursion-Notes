@@ -8,7 +8,7 @@ class Main {
 
   public static int factorial(int n) {
     // Base case where the recursion stops
-    if (n == 1)
+    if (n == 0)
       return 1;
 
     // recursive call getting us closer to the base case
